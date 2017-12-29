@@ -1,0 +1,14 @@
+open(): 
+union()
+
+isOpen():
+connected()
+
+isFull():
+connected()
+
+numberOfOpenSites():
+
+
+percolates():
+connected()
