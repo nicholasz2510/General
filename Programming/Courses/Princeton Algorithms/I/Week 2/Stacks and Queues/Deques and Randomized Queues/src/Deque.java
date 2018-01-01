@@ -1,5 +1,3 @@
-import edu.princeton.cs.algs4.StdOut;
-
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
@@ -115,11 +113,15 @@ public class Deque<Item> implements Iterable<Item> {
 
     @Override
     public Iterator<Item> iterator() {
-        return new ListIterator();
+        return new DequeIterator();
     }
 
-    private class ListIterator implements Iterator<Item> {
-        private Node current = first;
+    private class DequeIterator implements Iterator<Item> {
+        private Node current;
+
+        public DequeIterator() {
+            current = first;
+        }
 
         @Override
         public boolean hasNext() {
@@ -133,16 +135,19 @@ public class Deque<Item> implements Iterable<Item> {
 
         @Override
         public Item next() {
+            if (current == null) {
+                throw new NoSuchElementException("You've reached the end of the deque");
+            }
             Item item = current.item;
             current = current.next;
             return item;
         }
     }
 
+    /**
+     * purposefully empty
+     * @param args contains nothing
+     */
     public static void main(String[] args) {
-        Deque<Integer> deque = new Deque<>();
-        for (int i : deque) {
-            StdOut.print(i + " ");
-        }
     }
 }
