@@ -143,11 +143,4 @@ public class Deque<Item> implements Iterable<Item> {
             return item;
         }
     }
-
-    /**
-     * purposefully empty
-     * @param args contains nothing
-     */
-    public static void main(String[] args) {
-    }
 }

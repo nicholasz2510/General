@@ -148,11 +148,4 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             return shuffled[c];
         }
     }
-
-    /**
-     * Purposefully empty
-     * @param args contains nothing
-     */
-    public static void main(String[] args) {
-    }
 }
