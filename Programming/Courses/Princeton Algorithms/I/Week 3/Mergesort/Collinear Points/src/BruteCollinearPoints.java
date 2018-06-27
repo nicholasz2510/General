@@ -5,6 +5,10 @@ public class BruteCollinearPoints {
     private ArrayList<LineSegment> segments;
     private int nOfSegments;
 
+    /**
+     * finds all line segments containing 4 points
+     * @param points
+     */
     public BruteCollinearPoints(Point[] points) {
         if (points == null) {
             throw new IllegalArgumentException();

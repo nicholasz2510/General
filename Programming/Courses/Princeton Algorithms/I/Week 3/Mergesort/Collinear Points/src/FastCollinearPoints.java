@@ -7,6 +7,7 @@ public class FastCollinearPoints {
     }
 
     private LineSegment[] findMaximalLineSegments(Point point, Point[] points) {
+		return null;
 
     }
 
