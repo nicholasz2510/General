@@ -1,0 +1,69 @@
+.main-section {
+    background: rgb(53,56,64);
+    background: linear-gradient(90deg, rgba(53,56,64,1) 0%, rgba(10,10,12,1) 100%);
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+}
+
+.left-column {
+    padding: 60px;
+}
+
+.left-column > .description {
+    display: grid;
+    grid-gap: 20px;
+}
+
+.left-column > .description > .description-header {
+    font-size: 2.2em;
+}
+
+.left-column > .description > .description-content {
+    font-size: 2em;
+}
+
+.left-column > .buttons {
+    display: flex;
+    margin-top: 25px;
+}
+
+.left-column > .buttons > .sign-up-button {
+    color: black;
+    background-color: #4BCE79;
+    font-size: 2.2em;
+    padding: 20px;
+    border-radius: 5px;
+    letter-spacing: -1px;
+}
+
+.left-column > .buttons > .learn-more-button {
+    background-color: black;
+    font-size: 2.2em;
+    padding: 20px;
+    border-radius: 5px;
+    margin-left: 20px;
+    letter-spacing: -1px;
+}
+
+.right-column {
+    width: 500px;
+    padding-top: 60px;
+    display: grid;
+    grid-gap: 10px;
+}
+
+.right-column > .img-caption {
+    padding-left: 10px;
+}
+
+.right-column > .image-wrapper {
+    display: flex;
+    width: 500px;
+    height: 100%;
+}
+
+.right-column > .image-wrapper img {
+    width: 100%;
+    height: 100%;
+}

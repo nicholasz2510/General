@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Sprout: Plant Watering Reminders</string>
+    <string name="action_settings">Settings</string>
+    <string name="example_plant">Example Plant</string>
+</resources>

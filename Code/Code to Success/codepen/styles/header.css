@@ -1,0 +1,67 @@
+.header {
+    background-color: black;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header > .logo img {
+    width: 250px;
+    padding-left: 10px;
+}
+.header > .tabs-wrapper > .explore-text {
+    color: #F4E187;
+    font-size: 0.8em;
+    padding-bottom: 5px;
+    letter-spacing: 0px;
+}
+
+.header > .tabs-wrapper > .tabs {
+    display: flex;
+    align-items: center;
+}
+
+.header > .tabs-wrapper > .tabs > .tab {
+    padding-right: 10px;
+    font-size: 1.25em;
+    letter-spacing: -0.5px;
+}
+
+.header > .tabs-wrapper > .tabs > #spark-menu {
+    color: gray;
+    font-size: 1.2em;
+    padding-left: 20px;
+}
+
+.header > .menu-bar {
+    display: flex;
+    align-items: center;
+}
+
+.header > .menu-bar > .btn {
+    padding: 20px;
+    margin: 5px;
+    background-color: #36383F;
+    border-radius: 4px;
+}
+
+.header > .menu-bar > .login-signup-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.header > .menu-bar > .search-btn {
+    font-size: 2em;
+    color: #36383F;
+    filter: brightness(200%);
+    padding: 0px 25px;
+}
+
+.header > .menu-bar > .login-signup-wrapper > .btn {
+    padding: 20px;
+    margin: 5px;
+    background-color: #36383F;
+    border-radius: 4px;
+}

@@ -1,0 +1,35 @@
+.footer {
+    background-color: #5D5E5F;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+}
+
+.footer > .buttons-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.footer > .buttons-row > .btn {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #38363F;
+    margin: 2px;
+}
+
+.footer > .buttons-row > .btn > .normal {
+    font-size: 1.2em;
+    padding-right: 5px;
+}
+
+.footer > .buttons-row > .btn > .big {
+    font-size: 1.8em;
+}
