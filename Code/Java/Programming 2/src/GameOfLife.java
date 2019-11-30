@@ -53,6 +53,9 @@ public class GameOfLife {
 
         for (int xDir = -1; xDir <= 1; xDir++) {
             for (int yDir = -1; yDir <= 1; yDir++) {
+                if (xDir == 0 && yDir == 0) {
+                    continue;
+                }
                 int checkX = x + xDir;
                 int checkY = y + yDir;
                 if ((checkX >= 0 && checkX < currGen[0].length) && (checkY >= 0 && checkY < currGen.length)) {
@@ -62,42 +65,6 @@ public class GameOfLife {
                 }
             }
         }
-
-//        if (y > 0) {
-//            if (x > 0) {
-//                if (currGen[y - 1][x - 1] == 'o') {
-//                    num++;
-//                }
-//            }
-//            if (currGen[y - 1][x] == 'o') {
-//                num++;
-//            }
-//            if (x < currGen[0].length - 1) {
-//                if (currGen[y - 1][x + 1] == 'o') {
-//                    num++;
-//                }
-//            }
-//        } if (x > 0) {
-//            if (currGen[y][x - 1] == 'o') {
-//                num++;
-//            }
-//        } if (x < currGen[0].length - 1) {
-//            if (currGen[y][x + 1] == 'o') {
-//                num++;
-//            }
-//        } if (y < currGen.length - 1) {
-//            if (x > 0) {
-//                if (currGen[y + 1][x - 1] == 'o') {
-//                    num++;
-//                }
-//            } if (currGen[y + 1][x] == 'o') {
-//                num++;
-//            } if (x < currGen[0].length - 1) {
-//                if (currGen[y + 1][x + 1] == 'o') {
-//                    num++;
-//                }
-//            }
-//        }
 
         return num;
     }
