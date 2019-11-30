@@ -1,21 +1,22 @@
 public class GameOfLife {
     private static char[][] currGen = {
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', 'o', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', 'o', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', 'o', 'o', 'o', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' },
-            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ' }
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', 'o', ' ' , ' ', ' ', ' ', ' ', 'o', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', 'o', ' ' , ' ', ' ', ' ', ' ', 'o', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', 'o', 'o' , ' ', ' ', ' ', 'o', 'o', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', 'o', 'o', 'o', ' ', ' ', 'o' , 'o', ' ', 'o', 'o', ' ', ' ', 'o', 'o', 'o', ' ' },
+            { ' ', ' ', ' ', 'o', ' ', 'o', ' ' , 'o', ' ', 'o', ' ', 'o', ' ', 'o', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', 'o', 'o' , ' ', ' ', ' ', 'o', 'o', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', 'o', 'o' , ' ', ' ', ' ', 'o', 'o', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', 'o', ' ', 'o', ' ' , 'o', ' ', 'o', ' ', 'o', ' ', 'o', ' ', ' ', ' ' },
+            { ' ', 'o', 'o', 'o', ' ', ' ', 'o' , 'o', ' ', 'o', 'o', ' ', ' ', 'o', 'o', 'o', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', 'o', 'o' , ' ', ' ', ' ', 'o', 'o', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', 'o', ' ' , ' ', ' ', ' ', ' ', 'o', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', 'o', ' ' , ' ', ' ', ' ', ' ', 'o', ' ', ' ', ' ', ' ', ' ' },
+            { ' ', ' ', ' ', ' ', ' ', ' ', ' ' , ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ' }
     };
 
     private static void nextGen() {
@@ -39,9 +40,9 @@ public class GameOfLife {
         }
     }
 
-    private static void pause(int s) {
+    private static void pause() {
         try {
-            Thread.sleep(s * 1000);
+            Thread.sleep(500);
         } catch (InterruptedException e) {
             System.err.format("IOException: %s%n", e);
         }
@@ -50,41 +51,53 @@ public class GameOfLife {
     private static int numNeighbors(int x, int y) {
         int num = 0;
 
-        if (y > 0) {
-            if (x > 0) {
-                if (currGen[y - 1][x - 1] == 'o') {
-                    num++;
-                }
-            }
-            if (currGen[y - 1][x] == 'o') {
-                num++;
-            }
-            if (x < currGen[0].length - 1) {
-                if (currGen[y - 1][x + 1] == 'o') {
-                    num++;
-                }
-            }
-        } if (x > 0) {
-            if (currGen[y][x - 1] == 'o') {
-                num++;
-            }
-        } if (x < currGen[0].length - 1) {
-            if (currGen[y][x + 1] == 'o') {
-                num++;
-            }
-        } if (y < currGen.length - 1) {
-            if (x > 0) {
-                if (currGen[y + 1][x - 1] == 'o') {
-                    num++;
-                }
-            } if (currGen[y + 1][x] == 'o') {
-                num++;
-            } if (x < currGen[0].length - 1) {
-                if (currGen[y + 1][x + 1] == 'o') {
-                    num++;
+        for (int xDir = -1; xDir <= 1; xDir++) {
+            for (int yDir = -1; yDir <= 1; yDir++) {
+                int checkX = x + xDir;
+                int checkY = y + yDir;
+                if ((checkX >= 0 && checkX < currGen[0].length) && (checkY >= 0 && checkY < currGen.length)) {
+                    if (currGen[y][x] == 'o') {
+                        num++;
+                    }
                 }
             }
         }
+
+//        if (y > 0) {
+//            if (x > 0) {
+//                if (currGen[y - 1][x - 1] == 'o') {
+//                    num++;
+//                }
+//            }
+//            if (currGen[y - 1][x] == 'o') {
+//                num++;
+//            }
+//            if (x < currGen[0].length - 1) {
+//                if (currGen[y - 1][x + 1] == 'o') {
+//                    num++;
+//                }
+//            }
+//        } if (x > 0) {
+//            if (currGen[y][x - 1] == 'o') {
+//                num++;
+//            }
+//        } if (x < currGen[0].length - 1) {
+//            if (currGen[y][x + 1] == 'o') {
+//                num++;
+//            }
+//        } if (y < currGen.length - 1) {
+//            if (x > 0) {
+//                if (currGen[y + 1][x - 1] == 'o') {
+//                    num++;
+//                }
+//            } if (currGen[y + 1][x] == 'o') {
+//                num++;
+//            } if (x < currGen[0].length - 1) {
+//                if (currGen[y + 1][x + 1] == 'o') {
+//                    num++;
+//                }
+//            }
+//        }
 
         return num;
     }
@@ -93,10 +106,13 @@ public class GameOfLife {
         int currGenNum = 0;
 
         while (true) {
-            pause(1);
+            pause();
 
             for (char[] row : currGen) {
-                System.out.println(row);
+                for (char c : row) {
+                    System.out.print(" " + c);
+                }
+                System.out.println();
             }
             System.out.println("Generation " + currGenNum);
 
