@@ -56,7 +56,7 @@ public class GameOfLife {
                 int checkX = x + xDir;
                 int checkY = y + yDir;
                 if ((checkX >= 0 && checkX < currGen[0].length) && (checkY >= 0 && checkY < currGen.length)) {
-                    if (currGen[y][x] == 'o') {
+                    if (currGen[checkY][checkX] == 'o') {
                         num++;
                     }
                 }

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a4390e55-42a5-4cdb-b870-24d2a63311e7" name="Default Changelist" comment="" />
+    <list default="true" id="a4390e55-42a5-4cdb-b870-24d2a63311e7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/GameOfLife.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameOfLife.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/GameOfLife.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+            <state relative-caret-position="328">
+              <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -28,6 +30,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -45,6 +50,7 @@
     <option name="width" value="1696" />
     <option name="height" value="1066" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -120,7 +126,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1087" extended-state="0" />
+    <frame x="1912" y="-8" width="1696" height="1066" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.15426695" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -131,7 +137,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3825996" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.38156486" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4119497" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -155,7 +161,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/GameOfLife.java</url>
-          <line>27</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -189,8 +195,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GameOfLife.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+        <state relative-caret-position="328">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="46" selection-end-line="58" selection-end-column="46" />
         </state>
       </provider>
     </entry>
