@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4390e55-42a5-4cdb-b870-24d2a63311e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/LastDigitDistribution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PrimeSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RandomSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Sequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SequenceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SquareSequence.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Projects/Clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projects/Clock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/WorldClock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WorldClock.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,12 +19,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="780" />
-    <option name="y" value="223" />
-    <option name="width" value="974" />
-    <option name="height" value="1056" />
-  </component>
   <component name="ProjectId" id="1Wz9s4QXbLyj5eVxQ9nHm1YRdgx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -48,9 +33,15 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578660569145" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Java" />
   </component>
-  <component name="RunManager" selected="Application.SequenceDemo">
+  <component name="RunManager" selected="Application.GameOfLife">
     <configuration name="Clock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Clock" />
       <module name="Projects" />
@@ -88,10 +79,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GameOfLife" />
         <item itemvalue="Application.SequenceDemo" />
         <item itemvalue="Application.Clock" />
         <item itemvalue="Application.ZipCodeConverter" />
-        <item itemvalue="Application.GameOfLife" />
         <item itemvalue="Application.DrunkardsWalk" />
       </list>
     </recent_temporary>
@@ -106,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1569507785585</updated>
-      <workItem from="1580141764405" duration="608000" />
+      <workItem from="1580141764405" duration="1250000" />
+      <workItem from="1580336634638" duration="70000" />
     </task>
     <servers />
   </component>
@@ -123,6 +115,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1580336704084">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1580336704084" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1580336704084">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1580336704084" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1580336704084">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1580336704084" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1580336704084">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1580336704084" />
     <state x="465" y="242" key="com.intellij.ide.util.TipDialog" timestamp="1580142691348">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
