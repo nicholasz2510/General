@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4390e55-42a5-4cdb-b870-24d2a63311e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Coin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoinReader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/coinReaderInput.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fileName.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/medianSpeeds.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/stackPermutations.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projects/Coin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projects/Coin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Projects/CoinReader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Projects/CoinReader.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Projects" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -44,14 +49,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.CoinReader">
-    <configuration name="Clock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Clock" />
-      <module name="Projects" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.stackPermutations">
     <configuration name="CoinReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoinReader" />
       <module name="Projects" />
@@ -66,15 +64,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SequenceDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SequenceDemo" />
+    <configuration name="fileName" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fileName" />
       <module name="Projects" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZipCodeConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ZipCodeConverter" />
+    <configuration name="medianSpeeds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medianSpeeds" />
+      <module name="Projects" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="stackPermutations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="stackPermutations" />
       <module name="Projects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.stackPermutations" />
+        <item itemvalue="Application.fileName" />
+        <item itemvalue="Application.medianSpeeds" />
         <item itemvalue="Application.CoinReader" />
         <item itemvalue="Application.GameOfLife" />
-        <item itemvalue="Application.SequenceDemo" />
-        <item itemvalue="Application.Clock" />
-        <item itemvalue="Application.ZipCodeConverter" />
       </list>
     </recent_temporary>
   </component>
@@ -105,6 +110,9 @@
       <workItem from="1581874470017" duration="126000" />
       <workItem from="1584571263132" duration="2422000" />
       <workItem from="1584573701314" duration="3520000" />
+      <workItem from="1585095310609" duration="10335000" />
+      <workItem from="1585105665782" duration="483000" />
+      <workItem from="1585122692825" duration="2831000" />
     </task>
     <servers />
   </component>
@@ -125,26 +133,46 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="223" y="73" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581874594490" />
-    <state x="764" y="191" key="FileChooserDialogImpl" timestamp="1581874591374">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser" timestamp="1585105051231">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="764" y="191" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581874591374" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1584580196323">
+    <state x="574" y="127" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1585105051231" />
+    <state x="764" y="191" key="FileChooserDialogImpl" timestamp="1585105654421">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1584580196323" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1584580196323">
+    <state x="764" y="191" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1585105654421" />
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom" timestamp="1585125525852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1584580196323" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1584580196323">
+    <state width="1493" height="274" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1585125525852" />
+    <state width="1493" height="274" key="GridCell.Tab.0.center" timestamp="1585125525852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1584580196323" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1584580196323">
+    <state width="1493" height="274" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1585125525852" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left" timestamp="1585125525852">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1584580196323" />
+    <state width="1493" height="274" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1585125525852" />
+    <state width="1493" height="274" key="GridCell.Tab.0.right" timestamp="1585125525852">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="274" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1585125525852" />
+    <state width="1493" height="274" key="GridCell.Tab.1.bottom" timestamp="1585125525852">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="274" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1585125525852" />
+    <state width="1493" height="274" key="GridCell.Tab.1.center" timestamp="1585125525852">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="274" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1585125525852" />
+    <state width="1493" height="274" key="GridCell.Tab.1.left" timestamp="1585125525852">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="274" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1585125525852" />
+    <state width="1493" height="274" key="GridCell.Tab.1.right" timestamp="1585125525852">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1493" height="274" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1585125525852" />
     <state x="277" y="60" key="SettingsEditor" timestamp="1584573686827">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
@@ -153,6 +181,14 @@
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="465" y="242" key="com.intellij.ide.util.TipDialog/0.0.1536.834@0.0.1536.834" timestamp="1580142691348" />
+    <state x="425" y="189" key="run.anything.popup" timestamp="1585122771767">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1585122771767" />
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1585122834893">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1585122834893" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -166,6 +202,16 @@
           <url>file://$PROJECT_DIR$/src/ZipCodeConverter.java</url>
           <line>19</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/medianSpeeds.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/stackPermutations.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
