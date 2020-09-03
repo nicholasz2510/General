@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="01f53d80-bbda-44a6-86cf-3c73972633f9" name="Default Changelist" comment="" />
+    <list default="true" id="01f53d80-bbda-44a6-86cf-3c73972633f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Java/Programming 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Programming 2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,12 +19,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2423" />
-    <option name="y" value="26" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
   </component>
   <component name="ProjectId" id="1bEEmKjXseMHmNmHCmR2BM4pj6N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -158,6 +155,8 @@
       <workItem from="1595437856208" duration="155000" />
       <workItem from="1595438020765" duration="50000" />
       <workItem from="1595438300361" duration="9000" />
+      <workItem from="1595454983553" duration="53000" />
+      <workItem from="1599176177990" duration="31000" />
     </task>
     <servers />
   </component>
