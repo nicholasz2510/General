@@ -16,6 +16,7 @@ class MyClient(discord.Client):
 
         elif message.content.startswith('-fact'):
             await message.channel.send(random.choice(facts))
+            print("Fact sent to " + str(message.author) + "!")
 
 
 client = MyClient()

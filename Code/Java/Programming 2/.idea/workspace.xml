@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a4390e55-42a5-4cdb-b870-24d2a63311e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Python3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Python3/SalamanderFacts/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/SalamanderFacts/bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +44,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Application.GameOfLife">
-    <configuration name="CoinReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoinReader" />
+    <configuration name="GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="GameOfLife" />
       <module name="Projects" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GameOfLife" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="GameOfLife" />
+    <configuration name="ZipCodeConverter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZipCodeConverter" />
       <module name="Projects" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,16 +79,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GameOfLife" />
+        <item itemvalue="Application.ZipCodeConverter" />
         <item itemvalue="Application.stackPermutations" />
         <item itemvalue="Application.fileName" />
         <item itemvalue="Application.medianSpeeds" />
-        <item itemvalue="Application.CoinReader" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,6 +121,9 @@
       <workItem from="1585122692825" duration="2831000" />
       <workItem from="1595438363796" duration="129000" />
       <workItem from="1597331235691" duration="1000" />
+      <workItem from="1604481555213" duration="296000" />
+      <workItem from="1604792875821" duration="52000" />
+      <workItem from="1604792998553" duration="297000" />
     </task>
     <servers />
   </component>
@@ -121,25 +137,33 @@
     </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="856" key="GridCell.Tab.0.bottom" timestamp="1595438493438">
+    <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1604792885112">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="856" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1595438493438" />
-    <state width="1877" height="856" key="GridCell.Tab.0.center" timestamp="1595438493438">
+    <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604792885112" />
+    <state width="1877" height="726" key="GridCell.Tab.0.bottom" timestamp="1604481852150">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="856" key="GridCell.Tab.0.center/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1595438493438" />
-    <state width="1877" height="856" key="GridCell.Tab.0.left" timestamp="1595438493438">
+    <state width="1877" height="726" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604481852150" />
+    <state width="1877" height="726" key="GridCell.Tab.0.center" timestamp="1604481852150">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="856" key="GridCell.Tab.0.left/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1595438493438" />
-    <state width="1877" height="856" key="GridCell.Tab.0.right" timestamp="1595438493438">
+    <state width="1877" height="726" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604481852150" />
+    <state width="1877" height="726" key="GridCell.Tab.0.left" timestamp="1604481852150">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1877" height="856" key="GridCell.Tab.0.right/0.0.1920.1050/1920.21.1680.1020@0.0.1920.1050" timestamp="1595438493438" />
+    <state width="1877" height="726" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604481852150" />
+    <state width="1877" height="726" key="GridCell.Tab.0.right" timestamp="1604481852150">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="726" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604481852150" />
+    <state x="461" y="169" key="SettingsEditor" timestamp="1604793298505">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604793298505" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
