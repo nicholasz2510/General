@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a4390e55-42a5-4cdb-b870-24d2a63311e7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Python3/SalamanderFacts/bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../Python3/SalamanderFacts/bot.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="jsv8c20b" />
   </component>
   <component name="ProjectId" id="1Wz9s4QXbLyj5eVxQ9nHm1YRdgx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -79,17 +81,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GameOfLife" />
@@ -123,7 +114,8 @@
       <workItem from="1597331235691" duration="1000" />
       <workItem from="1604481555213" duration="296000" />
       <workItem from="1604792875821" duration="52000" />
-      <workItem from="1604792998553" duration="297000" />
+      <workItem from="1604792998553" duration="905000" />
+      <workItem from="1604794936527" duration="69000" />
     </task>
     <servers />
   </component>
@@ -144,6 +136,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="640" y="260" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604792885112" />
+    <state x="740" y="266" key="FileChooserDialogImpl" timestamp="1604794995099">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="266" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604794995099" />
     <state width="1877" height="726" key="GridCell.Tab.0.bottom" timestamp="1604481852150">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -164,6 +160,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604793298505" />
+    <state x="551" y="145" key="new project wizard" timestamp="1604795003648">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="551" y="145" key="new project wizard/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1604795003648" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
