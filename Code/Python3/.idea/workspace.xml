@@ -71,9 +71,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01f53d80-bbda-44a6-86cf-3c73972633f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/unus_annus_downloader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Java/Programming 2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Java/Programming 2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/unus_annus_downloader.py" beforeDir="false" afterPath="$PROJECT_DIR$/unus_annus_downloader.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -253,7 +251,7 @@
       <workItem from="1595454983553" duration="53000" />
       <workItem from="1599176177990" duration="31000" />
       <workItem from="1605299289795" duration="11506000" />
-      <workItem from="1605667701522" duration="423000" />
+      <workItem from="1605667701522" duration="744000" />
     </task>
     <servers />
   </component>
