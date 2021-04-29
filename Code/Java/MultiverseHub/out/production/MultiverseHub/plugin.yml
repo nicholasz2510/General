@@ -1,0 +1,10 @@
+name: MultiverseHub
+main: me.reprisal.MultiverseHub
+version: 1.0
+commands:
+  hub:
+    usage: /<command>
+    description: Teleport to the Hub!
+  sethub:
+    usage: /<command>
+    description: Set the Hub location.
