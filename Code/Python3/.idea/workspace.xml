@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01f53d80-bbda-44a6-86cf-3c73972633f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bfs_crawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/crawler_sites.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python3.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/drop_ball_car.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freethrowprobabilities.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/go2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/optimal_zoo.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ready_set_go.wav" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,12 +24,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2423" />
-    <option name="y" value="26" />
-    <option name="width" value="1296" />
-    <option name="height" value="776" />
   </component>
   <component name="ProjectId" id="1bEEmKjXseMHmNmHCmR2BM4pj6N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -53,7 +47,12 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.bfs_crawler">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\nicho\OneDrive\Documents\GitHub\General\Code\Python3" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.drop_ball_car">
     <configuration name="bfs_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -90,6 +89,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/colored_phones.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="drop_ball_car" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drop_ball_car.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,6 +165,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.drop_ball_car" />
         <item itemvalue="Python.bfs_crawler" />
         <item itemvalue="Python.planina" />
         <item itemvalue="Python.towering" />
@@ -162,6 +184,9 @@
       <option name="presentableId" value="Default" />
       <updated>1564210248977</updated>
       <workItem from="1588189012244" duration="4293000" />
+      <workItem from="1629741338102" duration="372000" />
+      <workItem from="1630003989538" duration="5125000" />
+      <workItem from="1630023304194" duration="337000" />
     </task>
     <servers />
   </component>
@@ -169,50 +194,30 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="679" y="140" key="#bfs_crawler" timestamp="1588189045039">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="534" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630006558843">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="679" y="140" key="#bfs_crawler/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588189045039" />
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1588193846632">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state x="534" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1630006558843" />
+    <state width="1493" height="156" key="GridCell.Tab.0.bottom" timestamp="1630008993789">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.bottom/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588193846632" />
-    <state width="1877" height="352" key="GridCell.Tab.0.center" timestamp="1588193846632">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1493" height="156" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1630008993789" />
+    <state width="1493" height="156" key="GridCell.Tab.0.center" timestamp="1630008993789">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.center/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588193846632" />
-    <state width="1877" height="352" key="GridCell.Tab.0.left" timestamp="1588193846632">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1493" height="156" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1630008993789" />
+    <state width="1493" height="156" key="GridCell.Tab.0.left" timestamp="1630008993789">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.left/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588193846632" />
-    <state width="1877" height="352" key="GridCell.Tab.0.right" timestamp="1588193846632">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1493" height="156" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1630008993789" />
+    <state width="1493" height="156" key="GridCell.Tab.0.right" timestamp="1630008993789">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.0.right/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588193846632" />
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom" timestamp="1588193846632">
-      <screen x="0" y="0" width="1920" height="1050" />
+    <state width="1493" height="156" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1630008993789" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1630005960480">
+      <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.bottom/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588193846632" />
-    <state width="1877" height="352" key="GridCell.Tab.1.center" timestamp="1588193846632">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.center/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588193846632" />
-    <state width="1877" height="352" key="GridCell.Tab.1.left" timestamp="1588193846632">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.left/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588193846632" />
-    <state width="1877" height="352" key="GridCell.Tab.1.right" timestamp="1588193846632">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1877" height="352" key="GridCell.Tab.1.right/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588193846632" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1588189083132">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="461" y="168" key="SettingsEditor/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588189083132" />
-    <state x="-10" y="40" width="1550" height="789" key="dock-window-1" timestamp="1588190769832">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="-10" y="40" width="1550" height="789" key="dock-window-1/1920.445.1536.840/0.0.1920.1050@0.0.1920.1050" timestamp="1588190769832" />
+    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1630005960480" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,6 +231,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Python3$drop_ball_car.coverage" NAME="drop_ball_car Coverage Results" MODIFIED="1630023309324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python3$bfs_crawler.coverage" NAME="bfs_crawler Coverage Results" MODIFIED="1588191318127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
