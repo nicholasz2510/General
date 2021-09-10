@@ -1,13 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Code" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Code" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Learn" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Code" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Learn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Code-to-Success" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:npm_and_yarn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Code" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Learn" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:Code-to-Success" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:ModuleSection" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="01f53d80-bbda-44a6-86cf-3c73972633f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/drop_ball_car.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/freethrowprobabilities.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go2.wav" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/optimal_zoo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ready_set_go.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ctci.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,16 +89,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
+  <component name="JupyterTrust" id="330bb4e2-1fca-4e79-b5c1-5e2042a5c3f9" />
   <component name="ProjectId" id="1bEEmKjXseMHmNmHCmR2BM4pj6N" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -45,14 +111,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\nicho\OneDrive\Documents\GitHub\General\Code\Python3" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Python.drop_ball_car">
+  <component name="RunManager" selected="Python.ctci">
     <configuration name="bfs_crawler" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -75,7 +136,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="colored_phones" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ctci" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -88,29 +149,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/colored_phones.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="drop_ball_car" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python3" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/drop_ball_car.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ctci.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -141,7 +180,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="towering" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="re-id" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Python3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,12 +188,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kattis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/random" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kattis/towering.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/random/re-id.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="unus_annus_downloader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Python3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/unus_annus_downloader.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -165,14 +226,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.drop_ball_car" />
+        <item itemvalue="Python.ctci" />
+        <item itemvalue="Python.re-id" />
+        <item itemvalue="Python.unus_annus_downloader" />
         <item itemvalue="Python.bfs_crawler" />
         <item itemvalue="Python.planina" />
-        <item itemvalue="Python.towering" />
-        <item itemvalue="Python.colored_phones" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -184,40 +246,64 @@
       <option name="presentableId" value="Default" />
       <updated>1564210248977</updated>
       <workItem from="1588189012244" duration="4293000" />
-      <workItem from="1629741338102" duration="372000" />
-      <workItem from="1630003989538" duration="5125000" />
-      <workItem from="1630023304194" duration="337000" />
+      <workItem from="1595437856208" duration="155000" />
+      <workItem from="1595438020765" duration="50000" />
+      <workItem from="1595438300361" duration="9000" />
+      <workItem from="1595454983553" duration="53000" />
+      <workItem from="1599176177990" duration="31000" />
+      <workItem from="1605299289795" duration="11506000" />
+      <workItem from="1605667701522" duration="7389000" />
+      <workItem from="1605760515272" duration="3812000" />
+      <workItem from="1605824869663" duration="698000" />
+      <workItem from="1606269819428" duration="1596000" />
+      <workItem from="1606994104952" duration="56000" />
+      <workItem from="1608115728900" duration="1096000" />
+      <workItem from="1628738241477" duration="3892000" />
+      <workItem from="1630862981020" duration="231000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/UltimBot" />
+    </ignored-roots>
   </component>
   <component name="WindowStateProjectService">
-    <state x="534" y="211" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1630006558843">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1628742532333">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state x="534" y="211" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.816@0.0.1536.816" timestamp="1630006558843" />
-    <state width="1493" height="156" key="GridCell.Tab.0.bottom" timestamp="1630008993789">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050/1920.0.1920.1050/3840.355.1920.1050@1920.0.1920.1050" timestamp="1628742532333" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1628742532333">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="156" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1630008993789" />
-    <state width="1493" height="156" key="GridCell.Tab.0.center" timestamp="1630008993789">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.0.1920.1050/1920.0.1920.1050/3840.355.1920.1050@1920.0.1920.1050" timestamp="1628742532333" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1628742532333">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="156" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1630008993789" />
-    <state width="1493" height="156" key="GridCell.Tab.0.left" timestamp="1630008993789">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.0.1920.1050/1920.0.1920.1050/3840.355.1920.1050@1920.0.1920.1050" timestamp="1628742532333" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1628742532333">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="156" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1630008993789" />
-    <state width="1493" height="156" key="GridCell.Tab.0.right" timestamp="1630008993789">
-      <screen x="0" y="0" width="1536" height="816" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.0.1920.1050/1920.0.1920.1050/3840.355.1920.1050@1920.0.1920.1050" timestamp="1628742532333" />
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup" timestamp="1628739749344">
+      <screen x="1920" y="0" width="1920" height="1050" />
     </state>
-    <state width="1493" height="156" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1630008993789" />
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup" timestamp="1630005960480">
-      <screen x="0" y="0" width="1536" height="816" />
-    </state>
-    <state x="431" y="137" width="672" height="678" key="search.everywhere.popup/0.0.1536.816@0.0.1536.816" timestamp="1630005960480" />
+    <state x="2543" y="227" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050/3840.355.1920.1050@1920.0.1920.1050" timestamp="1628739749344" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -231,7 +317,9 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Python3$drop_ball_car.coverage" NAME="drop_ball_car Coverage Results" MODIFIED="1630023309324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python3$ctci.coverage" NAME="ctci Coverage Results" MODIFIED="1628739834754" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python3$unus_annus_downloader.coverage" NAME="unus_annus_downloader Coverage Results" MODIFIED="1605829845884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python3$re_id.coverage" NAME="re-id Coverage Results" MODIFIED="1606270537745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random" />
     <SUITE FILE_PATH="coverage/Python3$bfs_crawler.coverage" NAME="bfs_crawler Coverage Results" MODIFIED="1588191318127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
