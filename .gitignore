@@ -9,3 +9,4 @@ Code/Python3/.idea/workspace.xml
 Code/Python3/ia_login.txt
 Code/Python3/InternetArchiveDownload/ia_login.txt
 /.idea/
+*.xml
