@@ -8,6 +8,10 @@ s = float(input("What is the speed of the car? (in cm/s) "))
 
 wait_time = (d / s) - (math.sqrt((2 * d) / 9.80665))
 
+if wait_time < 0:
+    print("Please add more space between the hit spot and the car.")
+    quit()
+
 input("Let the car go and press Enter at the same time")
 print("\nWait...")
 
