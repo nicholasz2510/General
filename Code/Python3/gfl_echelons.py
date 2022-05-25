@@ -56,7 +56,7 @@ for combo in combos:
             if combo[row][col] < 5:
                 for card in girls[combo[row][col]]:
                     if 0 <= col + card[0] < 3 and 0 <= row + card[1] < 3 and \
-                            combo[row + card[1]][col + card[0]] is not None:
+                            combo[row + card[1]][col + card[0]] < 5:
                         buffs += 1
     if buffs > max_buffs:
         max_buffs = buffs
