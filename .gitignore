@@ -8,5 +8,8 @@ Code/Java/Programming 2/.idea/workspace.xml
 Code/Python3/.idea/workspace.xml
 Code/Python3/ia_login.txt
 Code/Python3/InternetArchiveDownload/ia_login.txt
-/.idea/
-*.xml
+/.idea/*
+Code/Python3/dist/*
+Code/Python3/gfl_echelons.py
+Code/Python3/gfl bot.zip
+Code/Python3/exe_maker.py
